@@ -1,0 +1,52 @@
+html {
+    background-color: #ececec;
+    padding: 0px 16px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/*Main Navigation*/
+
+/* .navbar-brand{
+    color: #0061BA;
+} */
+
+.collapse{
+    margin-left: 50px;
+}
+
+/*offcanvas Navigation*/
+nav.navbar.bg-body-tertiary.fixed-top{
+    margin-top: 65px;
+}
+
+/* Visit for today*/
+
+.doctor-visit{
+    display: flex;
+}
+
+.patient-number{
+    display: flex;
+}
+
+/* .row {
+    width: 100%;
+} */
+
+.patient-appoint{
+    display: flex;
+}
+
+.list-heading{
+    display: flex;
+    align-items: center;
+}
+
+.greeting-info{
+    display: flex;
+    align-items: baseline;
+}
+

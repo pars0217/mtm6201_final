@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenview Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Main Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-Primary fixed-top" style="background-color: #ececec;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: #0061BA; font-size: 30px; font-weight: 600;">Greenview Hospital</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" style="padding: 6px;">
+                    <a class="nav-link" style="color: #262626; font-weight: 500;" aria-current="page" href="#">Medical Services</a>
+                  </li>
+                  <li class="nav-item" style="padding: 6px;">
+                    <a class="nav-link" style="color: #262626; font-weight: 500;" href="#">Patient Resources</a>
+                  </li>
+                  <li class="nav-item" style="padding: 6px;">
+                    <a class="nav-link" style="color: #262626; font-weight: 500;"  href="#">Research & Innovations</a>
+                  </li>
+                  <li class="nav-item" style="padding: 6px;">
+                    <a class="nav-link"  style="color: #262626; font-weight: 500;" href="#">About us</a>
+                  </li>
+                </ul>
+
+                <button class="btn btn-outline-primary" type="submit">Login</button>
+
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    
+
+    <main>
+      <!-- Offcanvas Navigation -->
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"  style="color: #262626; font-weight: 700;">Hi, John Abraham</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" style="background-color: #0061BA; color: #fff; padding-left: 10px; font-weight: 500; border-radius: 6px;" aria-current="page" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " style="color: #262626; padding-left: 6px; font-weight: 500; " href="#">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #262626; padding-left: 6px; font-weight: 500;" href="#">Appointments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #262626; padding-left: 6px; font-weight: 500;" href="#">Patients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #262626; padding-left: 6px; font-weight: 500;" href="#">Messages</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- main Content -->
+      <div class="wrapper" style="margin-top: 120px;">
+        <div class="container-fluid" style="background-color: #ececec; padding-top: 20px;">
+          <div class="row">
+
+            <!-- Greeting Header -->
+            <div class="greeting-info">
+              <h5 class="greeting-name" style="color: #262626; font-weight: 600;">Good Morning,</h5>
+              <h2 class="greeting-name" style="color: #0061BA; margin-left: 10px; font-weight: 600;">John Abraham</h2>
+            </div>
+
+            <!-- Visit info card-->
+            <div class="col-md">
+              <div class="col-md" style="background-color: #0061BA; border-radius: 6px; padding: 12px;">
+
+                <div class="doctor-visit">
+                  <div class="visit-info">
+                      <div class="visit-header" style="color: #fff;">
+                        <h5 class="visit-title" style="font-weight: 400;">Visit for today</h5>
+                        <h1 class="visit-total">80</h1>
+                      </div>
+                    
+
+                    <div class="patient-number" style="color: #262626; padding-top: 100px;">
+                      <div class="New-patients" style="background-color: #fff; padding: 8px 40px 8px 8px; border-radius: 6px;">
+                        <p>New Patients</p>
+                        <h3>10</h3>
+                      </div>
+                      <div class="Old-patients" style="background-color: #fff; padding: 8px 40px 8px 8px; margin-left: 12px; border-radius: 6px;">
+                        <p>Old Patients</p>
+                        <h3>05</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="doc-image">
+                      <img src="images/doctor.png" class="doctor" alt="John-Abraham">
+                    </div>              
+                  </div>    
+              </div>
+
+
+              <div class="patient-list" style="margin-top: 20px; background-color: #fff; border-radius: 6px;">
+                <div class="patient-info" style="padding: 16px;">
+                  <div class="list-heading">
+                    <h3 style="color: #262626;">Patient List</h3>
+                    <h6 style="color: #5c5c5c; margin-left: 18px;">Today</h6>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16" style="margin-left: 4px;">
+                      <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67"/>
+                    </svg>
+                  </div>
+
+                  <div class="patient-appoint" style="padding: 6px 10px; align-items: center;">
+                    <div class="patient-appoint" style="align-items: center;">
+                      <h4 style="background-color: #F4A22344; padding: 8px; border-radius: 80px; border: #F4A223 solid 2px;">AK</h4>
+                      <div class="patient-name" style="padding-left: 18px;">
+                        <h6 style="color: #262626; font-weight: 700;">Alison Kirlin</h6>
+                        <p style="color: #F4A223;">Weekly Checkup</p>
+                      </div>
+                    </div>  
+                  </div>
+                
+
+                  <div class="patient-card" style="width: 50%; border-radius: 8px;" >
+                    <div class="patient-appoint" style="padding: 6px 10px; align-items: center;">
+                      <h4 style="background-color: #d8411344; padding: 8px; border-radius: 80px; border: #d84113 solid 2px;">AK</h4>
+                      <div class="patient-name" style="padding-left: 18px;">
+                        <h6 style="color: #262626; font-weight: 700;">Alison Kirlin</h6>
+                        <p style="color: #d84113;">Daily Checkup</p>
+                      </div>
+                    </div>  
+                  </div> 
+
+
+                  <div class="patient-card" style="width: 50%;" >
+                    <div class="patient-appoint" style="padding: 6px 10px; align-items: center;">
+                      <h4 style="background-color: #0061BA44; padding: 8px; border-radius: 80px; border: #0061BA solid 2px;">AK</h4>
+                      <div class="patient-name" style="padding-left: 18px;">
+                        <h6 style="color: #262626; font-weight: 700;">Alison Kirlin</h6>
+                        <p style="color: #0061BA;">Report</p>
+                      </div>
+                    </div>  
+                  </div> 
+                </div>  
+                
+              </div>
+
+            </div>  
+            
+
+            <div class="col-md">
+                <div class="col-md">
+                  <div class="calendar" style="background-color: #fff; border-radius: 6px;">
+                    <div class="upcoming-content" style="padding: 30px; ">
+                      <h3 class="calendar-heading" style="color: #262626; text-align: center;">March 2024</h3>
+                      
+                      <!-- Calendar section -->
+                      <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                              <th>Mon</th>
+                              <th>Tue</th>
+                              <th>Wed</th>
+                              <th>Thu</th>
+                              <th>Fri</th>
+                              <th>Sat</th>
+                              <th>Sun</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="padding: 1.5rem 1.5rem; color: #5c5c5c6b;">26</td>
+                              <td style="padding: 1.5rem 1.5rem; color: #5c5c5c6b;">27</td>
+                              <td style="padding: 1.5rem 1.5rem; color: #5c5c5c6b;">28</td>
+                              <td style="padding: 1.5rem 1.5rem; color: #5c5c5c6b;">29</td>
+                              <td style="padding: 1.5rem 1.5rem;">1</td>
+                              <td style="padding: 1.5rem 1.5rem;">2</td>
+                              <td style="padding: 1.5rem 1.5rem;">3</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1.5rem 1.5rem;">4</td>
+                                <td style="padding: 1.5rem 1.5rem;">5</td>
+                                <td style="padding: 1.5rem 1.5rem; color: #0061BA; font-weight: 700;">6</td>
+                                <td style="padding: 1.5rem 1.5rem;">7</td>
+                                <td style="padding: 1.5rem 1.5rem;">8</td>
+                                <td style="padding: 1.5rem 1.5rem;">9</td>
+                                <td style="padding: 1.5rem 1.5rem;">10</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1.5rem 1.5rem;">11</td>
+                                <td style="padding: 1.5rem 1.5rem;">12</td>
+                                <td style="padding: 1.5rem 1.5rem;">13</td>
+                                <td style="padding: 1.5rem 1.5rem;">14</td>
+                                <td style="padding: 1.5rem 1.5rem;">15</td>
+                                <td style="padding: 1.5rem 1.5rem;">16</td>
+                                <td style="padding: 1.5rem 1.5rem;">17</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1.5rem 1.5rem;">18</td>
+                                <td style="padding: 1.5rem 1.5rem;">19</td>
+                                <td style="padding: 1.5rem 1.5rem;">20</td>
+                                <td style="padding: 1.5rem 1.5rem;">21</td>
+                                <td style="padding: 1.5rem 1.5rem;">22</td>
+                                <td style="padding: 1.5rem 1.5rem;">23</td>
+                                <td style="padding: 1.5rem 1.5rem;">24</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 1.5rem 1.5rem;">25</td>
+                                <td style="padding: 1.5rem 1.5rem;">26</td>
+                                <td style="padding: 1.5rem 1.5rem;">27</td>
+                                <td style="padding: 1.5rem 1.5rem;">28</td>
+                                <td style="padding: 1.5rem 1.5rem;">29</td>
+                                <td style="padding: 1.5rem 1.5rem;">30</td>
+                                <td style="padding: 1.5rem 1.5rem;">31</td>
+                            </tr>
+                          </tbody>
+                      </table>
+
+                      <!-- Upcoming Appointment section -->
+                      <div class="upcoming-info" style="margin-top: 20px;">
+                        <h3 style="color: #262626;">Upcoming Appointment</h3>
+    
+                        <div class="patient-card" style="margin-top: 18px; background-color: #d841131e; width: 50%; border-radius: 8px;" >
+                          <div class="patient-appoint" style="padding: 8px 10px; align-items: center;">
+                            <h4 style="background-color: #d8411344; padding: 10px; border-radius: 80px; border: #d84113 solid 2px;">AK</h4>
+                            <div class="patient-name" style="padding-left: 18px;">
+                              <h6 style="color: #262626; font-weight: 700;">Alison Kirlin</h6>
+                              <p style="color: #5c5c5c;">06 March 2024 | 13:00 PM</p>
+                            </div>
+                          </div>  
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
